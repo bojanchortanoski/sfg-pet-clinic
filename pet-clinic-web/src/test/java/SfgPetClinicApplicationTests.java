@@ -1,5 +1,3 @@
-package com.timeout.gambit.sfgpetclinic;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
