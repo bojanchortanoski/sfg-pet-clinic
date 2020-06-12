@@ -2,9 +2,11 @@ package com.timeout.gambit.sfgpetclinic.services.map;
 
 import com.timeout.gambit.sfgpetclinic.model.Owner;
 import com.timeout.gambit.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Owner findById(Long id) {

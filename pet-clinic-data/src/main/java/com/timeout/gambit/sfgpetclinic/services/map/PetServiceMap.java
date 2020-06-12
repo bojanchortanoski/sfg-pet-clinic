@@ -2,9 +2,11 @@ package com.timeout.gambit.sfgpetclinic.services.map;
 
 import com.timeout.gambit.sfgpetclinic.model.Pet;
 import com.timeout.gambit.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Pet findById(Long id) {
